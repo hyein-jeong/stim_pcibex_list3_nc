@@ -35,6 +35,24 @@ window.requestAnimationFrame( replaceUploadingMessage );
 // Show the 'intro' trial first, then all the 'experiment' trials in a random order
 // then send the results and finally show the trial labeled 'bye'
 Sequence("intro_ID",
+	 
+	 "preload_prac_cb",
+	 "preload_pretrain_cb",
+	 "preload_prac_ncb",
+	 "preload_pretrain_ncb",
+	 "preload_train1_cb",
+	 "preload_train1_ncb",
+	 "preload_train2_cb",
+	 "preload_train2_ncb",
+	 "preload_train3_cb",
+	 "preload_train3_ncb",
+	 "preload_train4_cb",
+	 "preload_train4_ncb",
+	 "preload_train5_cb",
+	 "preload_train5_ncb",
+	 "preload_train6_cb",
+	 "preload_train6_ncb",
+	 
 	 "consent_form",
 	 "initiate_recorder",
 	 "audio_check",
